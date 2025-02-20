@@ -30,17 +30,34 @@ export default function CTA() {
       <motion.div variants={itemVariants}>
         <TextBlur
           className="text-center text-3xl font-medium tracking-tighter sm:text-5xl"
-          text="A Simple Next.js Waitlist Template with Notion as CMS"
+          text="PortfolioChat"
         />
       </motion.div>
 
       <motion.div variants={itemVariants}>
         <TextBlur
-          className="mx-auto max-w-[27rem] pt-1.5 text-center text-base text-zinc-300 sm:text-lg"
-          text="Join the waitlist to get early access of the product and recieve updates on the progress!"
+          className="text-center text-3xl font-medium tracking-tighter sm:text-3xl text-zinc-300"
+          text="AI-Powered Portfolio Insights"
+        />
+      </motion.div>
+
+      <motion.div variants={itemVariants}>
+        <TextBlur
+          className="text-center text-lg font-medium tracking-tight text-zinc-400 sm:text-xl"
+          text="Smarter insights. Better decisions. Faster reporting."
           duration={0.8}
         />
       </motion.div>
+
+      <motion.div variants={itemVariants}>
+        <TextBlur
+          className="mx-auto max-w-[30rem] pt-1.5 text-center text-base text-zinc-300 sm:text-lg"
+          text="Join the waitlist for PortfolioChat — An AI tool that turns performance metrics, market news, and unique data sources into custom portfolio PDF reports."
+          duration={0.8}
+        />
+      </motion.div>
+
+
     </motion.div>
   );
 }

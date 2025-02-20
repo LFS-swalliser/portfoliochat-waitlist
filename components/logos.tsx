@@ -5,13 +5,30 @@ import { containerVariants, itemVariants } from "@/lib/animation-variants";
 import TextBlur from "./ui/text-blur";
 
 const logos = [
-  { href: "https://nextjs.org", src: "/nextjs.svg", alt: "Next.js Logo" },
-  { href: "https://notion.so", src: "/notion.svg", alt: "Notion Logo" },
-  { href: "https://resend.com", src: "/resend.svg", alt: "Resend Logo" },
-  { href: "https://upstash.com", src: "/upstash.svg", alt: "Upstash Logo" },
-  { href: "https://ui.shadcn.com", src: "/shadcn.svg", alt: "shadcn Logo" },
-  { href: "https://vercel.com", src: "/vercel.svg", alt: "Vercel Logo" },
+    { 
+      href: "https://www.lean-fs.ch", 
+      src: "https://www.lean-fs.ch/assets/logo/white-logo-01.svg", 
+      alt: "Lean FS Logo" 
+    },
+    { 
+      href: "https://www.uzh.ch", 
+      src: "https://www.cd.uzh.ch/dam/jcr:06c42b1d-c9d5-4664-adb7-89b327fafa88/uzh-logo-white.svg", 
+      alt: "University of Zurich Logo" 
+    },
+    /*{ 
+      href: "https://ethz.ch", 
+      src: "https://vlg.inf.ethz.ch/assets/img/logo/logo-eth-white.png", 
+      alt: "ETH Zurich Logo" 
+    },
+    { 
+      href: "https://www.dowjones.com", 
+      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Dow_Jones_Newswires_Logo.png/1280px-Dow_Jones_Newswires_Logo.png", 
+      alt: "Dow Jones Newswires Logo",
+      className: "brightness-0 invert" // Makes the logo white
+    },*/
 ];
+  
+
 
 export default function Logos() {
   return (

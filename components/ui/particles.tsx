@@ -60,7 +60,7 @@ const Particles: React.FC<ParticlesProps> = ({
   ease = 50,
   size = 0.4,
   refresh = false,
-  color = "#ffffff",
+  color = "#efe1c6",
   vx = 0,
   vy = 0,
 }) => {
@@ -204,12 +204,8 @@ const Particles: React.FC<ParticlesProps> = ({
 
   const clearContext = () => {
     if (context.current) {
-      context.current.clearRect(
-        0,
-        0,
-        canvasSize.current.w,
-        canvasSize.current.h,
-      );
+      context.current.fillStyle = "#1C1B1A"; // Replace with your desired background color
+      context.current.fillRect(0, 0, canvasSize.current.w, canvasSize.current.h);
     }
   };
 
